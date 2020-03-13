@@ -47,3 +47,32 @@ Cet exercice vise à mettre brièvement en pratique les trois piliers de JS : Ty
 6. Créez une instance de la classe `Bookshelf`, et passez-la en argument à `loadBooks(..)`.
 
 	Astuce : instanciation de la classe : `new Whatever()`.
+	Enoncé 3 : Queues
+En informatique, une file d'attente est une structure abstraite de données où les articles sont maintenus en ordre. De nouveaux articles peuvent être ajoutés en fin de file et les anciens articles sont retirés du début de la file.
+
+Écrivez une fonction nextInLine qui prend un tableau (arr) et un nombre (item) comme arguments.
+
+Ajoutez le nombre à la fin du tableau, puis retirez le premier élément du tableau.
+
+La fonction nextInLine doit alors renvoyer l'élément qui a été supprimé.
+
+Enoncé 4
+Dans le jeu de casino Blackjack, un joueur peut obtenir un avantage sur la maison en gardant une trace du nombre relatif de cartes hautes et basses restant dans le jeu. C'est ce qu'on appelle le comptage des cartes.
+
+Le fait d'avoir plus de cartes hautes dans le jeu favorise le joueur. Une valeur est attribuée à chaque carte selon le tableau ci-dessous. Lorsque le décompte est positif, le joueur doit miser la plus haute carte. Lorsque le compte est nul ou négatif, le joueur doit miser faible.
+
+Décompte : Cartes
+
++1 :::::::> 2, 3, 4, 5, 6
+
+0 ::::::::> 7, 8, 9
+
+-1 :::::::> 10, "J", "Q", "K", "A"
+
+Vous écrirez une fonction de comptage de cartes. Elle recevra un paramètre de carte, qui peut être un nombre ou une chaîne de caractères, et incrémentera ou décrémentera la variable de comptage globale en fonction de la valeur de la carte (voir tableau). La fonction renverra ensuite une chaîne avec le comptage actuel et la chaîne Bet si le comptage est positif, ou Hold si le comptage est nul ou négatif. Le décompte actuel et la décision du joueur (Bet ou Hold) doivent être séparés par un seul espace.
+
+Exemple de sortie
+
+-3 Attend
+
+5 Pari
