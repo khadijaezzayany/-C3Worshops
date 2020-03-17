@@ -140,7 +140,7 @@ On vous remet un objet JSON représentant une partie de votre collection d'album
 
 ### Enoncé 6 
 
-Nous disposons d'une série d'objets représentant différentes personnes dans nos listes de contacts.
+Nous disposons d'une série d'objets représentant différentes personnes dans nos listes de contacts (voir code starter énoncé-6.js).
 
 Une fonction lookUpProfile qui prend le nom et une propriété (prop) comme arguments a été pré-écrite pour vous.
 
