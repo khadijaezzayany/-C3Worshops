@@ -24,5 +24,5 @@
      }
      return i + " " + x;
  }
- blackJack(2);
- console.log(2);
+//  blackJack("J");
+ console.log(blackJack(0));
